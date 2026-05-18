@@ -128,6 +128,7 @@ Da der Roman in der **3. Person (Er/Sie)** verfasst wird und der eigene Text aus
 
 ### Beispiel für eine Szenen-Steuerung:
 ```text
+[System: Beende das aktuelle Kapitel. Schreibe eine zentrierte, markante Überschrift für 'Kapitel 1: Der gestrandete Thron'. Beginne die Szene im tiefen Wald bei der kaputten Kutsche.]
 [Szene: Die Reise beginnt. Luna sitzt in der holpernden Kutsche auf dem Weg vom Kloster zur königlichen Burg Drachenhort. Sie sorgt sich um ihren schwerkranken Vater. Plötzlich gibt es einen lauten Schlag – ein Rad bricht, und die Kutsche kommt im tiefen, nebligen Wald abrupt zum Stehen.]
 "Was ist geschehen?", fragt sie besorgt in die Dunkelheit hinein.
 ```

@@ -1,0 +1,14 @@
+services:
+  sillytavern:
+    image: ghcr.io/sillytavern/sillytavern:latest
+    container_name: sillytavern-app
+    ports:
+      - "8000:8000"
+    environment:
+      # Erlaubt Zugriffe aus dem internen Docker-Netzwerk (Behebt den Forbidden-Fehler)
+      - SILLYTAVERN_WHITELIST=["127.0.0.1", "::1", "172.16.0.0/12"]
+      - OPENROUTER_API_KEY=${MY_OPENROUTER_KEY}
+    volumes:
+      - ./config:/home/node/app/config
+      - ./data:/home/node/app/data
+    restart: unless-stopped

@@ -1,0 +1,17 @@
+# Lokale Umgebungsvariablen mit Passwörtern
+.env
+
+# Ganze sensible Systemordner ignorieren
+config/
+data/user/
+data/default-user/
+
+# SillyTavern Caches und temporäre Verzeichnisse
+data/backups/
+data/cache/
+data/tmp/
+
+# Systemdateien & Logs
+*.log
+.DS_Store
+Thumbs.db
